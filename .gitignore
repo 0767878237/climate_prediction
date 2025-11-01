@@ -1,0 +1,21 @@
+# Compiled output from Maven
+target/
+
+# Log files
+*.log
+
+# IDE configuration files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.sts4-cache/
+.vscode/
+
+# Application properties file containing secrets
+# IMPORTANT: Make sure you have a template file checked into Git
+src/main/resources/application.properties
+
+# Other files to ignore
+HELP.md

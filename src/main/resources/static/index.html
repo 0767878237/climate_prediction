@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự báo thời tiết</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-container">
+    <h1>Dự Báo Thời Tiết</h1>
+    <div class="search-box">
+        <input type="text" id="city-input" placeholder="Nhập tên thành phố...">
+        <button id="search-btn">Tìm kiếm</button>
+    </div>
+
+    <div id="current-weather-info" class="hidden">
+        <div class="current-weather">
+            <div class="main-info">
+                <img id="weather-icon" src="" alt="Weather Icon">
+                <div class="temperature-info">
+                    <h2 id="city-name" style="margin-bottom: 10px;"></h2>
+                    <p id="temperature"></p>
+                    <p id="description"></p>
+                </div>
+            </div>
+            <div class="details-grid">
+                <div class="detail-item">
+                    <strong>Độ ẩm:</strong> <span id="humidity"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Tốc độ gió:</strong> <span id="wind-speed"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="forecast-container" class="forecast-container">
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
