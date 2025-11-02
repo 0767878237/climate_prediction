@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class WeatherService {
 
-    @Value("${openweathermap.api.key}")
+    @Value("${OPENWEATHERMAP_API_KEY}")
     private String apiKey;
 
     private final RestTemplate restTemplate;
